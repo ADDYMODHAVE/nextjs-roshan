@@ -1,0 +1,7 @@
+.firstletterCapital p::first-letter {
+  font-size: 40px;
+  color: aqua;
+}
+.firstletterCapital p {
+  text-indent: 40px;
+}

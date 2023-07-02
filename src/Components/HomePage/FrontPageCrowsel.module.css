@@ -1,0 +1,24 @@
+.mainheader {
+  color: rgb(245, 32, 209);
+  position: relative;
+  left: 20px;
+  bottom: 100px;
+}
+.mainheader-fontsize {
+  font-size: 13px;
+  font-weight: bolder;
+}
+
+@media (min-width: 768px) {
+  .mainheader-fontsize {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+}
+
+@media (min-width: 992px) {
+  .mainheader-fontsize {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+}

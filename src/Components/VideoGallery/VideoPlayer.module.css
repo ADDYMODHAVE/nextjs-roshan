@@ -1,0 +1,15 @@
+.mainvideoplayer {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 20px;
+  border: 5px solid rgb(246, 239, 239);
+}
+.mainvideoplayer h2 {
+  color: aliceblue;
+  font-size: 2rem;
+}

@@ -1,0 +1,46 @@
+.frontpagemain {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 20px;
+  grid-auto-flow: row;
+  grid-column-gap: 23px;
+  grid-row-gap: 10px;
+  justify-content: center;
+  overflow-y: hidden;
+}
+
+.frontpagemain img {
+  width: 13rem;
+  border-radius: 7px;
+}
+.frontpagemain img:hover {
+  border: 2px white solid;
+  transform: scale(1.1);
+}
+@media (min-width: 576px) {
+  .frontpagemain img {
+    width: 18rem;
+    border-radius: 7px;
+  }
+}
+
+
+
+@media (min-width: 992px) {
+  .frontpagemain {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 20px;
+    grid-auto-flow: row;
+    grid-column-gap: 23px;
+    grid-row-gap: 10px;
+    justify-content: center;
+    overflow-y: hidden;
+  }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}
